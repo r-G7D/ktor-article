@@ -1,0 +1,1 @@
+rootProject.name = "com.rg7d.ktor-article"

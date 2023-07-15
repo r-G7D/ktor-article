@@ -1,0 +1,11 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - com.rg7d.ApplicationKt.module
+db:
+  url: "jdbc:postgresql://localhost:5432:articles"
+  user: "postgres"
+  pass: ""
+  pool: 2
